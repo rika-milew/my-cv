@@ -3,355 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Erika Gumerova</title>
     <meta name="description" content="Web-developer, about me, my works">
     <!-- Web Fonts -->
     <link rel="stylesheet" href="styles/style.css"/>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
     <!-- Icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
     <link href="images/favicon.png" rel="icon" />
-   
-
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <div class="wrapper">
-    <div class="first-block">
-<div class="container">
-        <nav class="main-menu">
-                <p><a href="index.html">Home</a></p>
-                <p><a href="#">About Me</a></p>
-                <p><a href="contact.html">Skills</a></p>
-                <p><a href="courses.html">My Education</a></p>
-                <p><a href="blog.html">My Experience</a></p>
-                <p><a href="contact.html">Portfolio</a></p>
-                <p><a href="contact.html">More info</a></p>
-                <p><a href="contact.html">Contacts</a></p>
-    </nav>
-    <div class="main-block">
-    <div class="main-block__first">
-        <h1>HI, I'M A WEB-DEVELOPER </h1>
-<h2 class="animation">ERIKA GUMEROVA</h2>
-       
-      <p>based in Minsk, Belarus.</p>
-      <div class="main-block__buttons">
-      <p class="button-works">View My Works</p> 
-      <p class="button-contact">Contact me</p>
-      <p class="material-icons">arrow_circle_down</p>
-    </div>
-    </div>
-<div class="main-block__photo">
-<img src="images/me.png" alt="My Photo" width="455" class="my-photo"> 
-</div>
-</div>
-</div>
-</div>
+        <header class="first-block block">
+            <div class="container">
+                <nav class="main-menu">
+                    <p><a href="#home" class="scrollto">Home</a></p>
+                    <p><a href="#about-me">About Me</a></p>
+                    <p><a href="#skills">Skills</a></p>
+                    <p><a href="#education">My Education</a></p>
+                    <p><a href="#experience">My Experience</a></p>
+                    <p><a href="#portfolio">Portfolio</a></p>
+                    <p><a href="#more-info">More info</a></p>
+                    <p><a href="#contacts">Contacts</a></p>
+                </nav>
+                <div class="main-block">
+                    <div class="main-block__first">
+                        <h1>HI, I'M A WEB-DEVELOPER </h1>
+                        <h2 id="animation-text">ERIKA GUMEROVA</h2>
+                        <p id="animation-text2">based in Minsk, Belarus.</p>
+                            <div class="main-block__buttons">
+                                <p class="button-works"><a href="#portfolio">View My Works</a></p>
+                                <p class="button-contact"><a href="#contacts">Contact me</a></p>
+                                <p class="main-block_icon" class="material-symbols-outlined"><a href="#contacts"><img src="images/icons/arrow_circle.svg" alt="" class="first-block_icon"></a></p>
+                            </div>
+                    </div>
+                    <div class="main-block__photo">
+                        <img src="images/me.png" alt="My Photo" class="my-photo"> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="biography-block block"> 
+                <div class="container">
+                    <div class="about-me">
+                        <h4 id="about-me">About Me</h4>
+                        <h3>Know Me More</h3>
+                            <div class="about-me__main">
+                                <div class="about-me__text">
+                                    <p class="title">Hi, I'm <span class="title__name">Erika Gumerova</span></p>
+                                    <p class="text">My name is Erika. I am a beginner web developer. Now I am studying technologies such as HTML, CSS, JavaScript and working hard on my portfolio. I want to continue my studies and improve in the field of front-end development. In 2021, I graduated with honors from Minsk State Linguistic University with a degree in intercultural communication. In addition, I started working during my studies. In hindsight, it gave me great opportunitues to gain useful experience in many areas. For the last year, I have been working as a content manager, and this job has given me the opportunity to understand the structure and work of websites. In addition, I do tutoring, teaching English to adults and children. First and foremost, I am able to achieve high results thanks to a creative approach to projects, a responsible attitude to work and my great analytical skills. I am also distinguished by accuracy and the desire to do the job in the best possible way. Besides, I feel comfortable working in a friendly and relaxed environment, so I do my best to maintain such an atmosphere in the team. I always move forward and constantly strive to acquire new knowledge and successfully apply it in my work.</p>
+                                </div>
+                                <div class="about-me__experience">
+                                    <p>1</p>
+                                    <span>Year of <span>Experience</span></span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="about-me__columns">
+                        <div class="column">
+                            <p>Name:</p>
+                            <span>Erika Gumerova</span>
+                        </div>
+                        <div class="column">
+                            <p>Email:</p>
+                            <span><a href="mailto:erika.gumerova@gmail.com">erika.gumerova@gmail.com</a></span>
+                        </div>
+                        <div class="column">
+                            <p>Date of birth:</p>
+                            <span>31 January, 1999</span>
+                        </div>
+                        <div class="column">
+                                <p>From:</p>
+                                <span>Minsk, Belarus</span>
+                        </div>
+                    </div>
+                    <div class="about-me__languages">
+                        <p class="language-titles">Foreign languages:</p>
+                        <p class="language-levels">English - C1, German - B2, Russian - C1, Belarusian - C1.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skills-block block">
+                <div class="container">
+                    <div class="block-title">
+                        <h4 id="skills">What I Do?</h4>
+                        <h3>My Skills</h3>
+                    </div>
+                    <div class="skills-block__items">
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/code.svg" alt="" class="skill-block_icon"></p>
+                            <p>HTML/CSS</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/devices.svg" alt="" class="skill-block_icon"></p>
+                            <p>Adaptive layout</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/rocket_launch.svg" alt="" class="skill-block_icon"></p>
+                            <p>JavaScript basics</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/laptop.svg" alt="" class="skill-block_icon"></p>
+                            <p>Understanding the structure of websites</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/image.svg" alt="" class="skill-block_icon"></p>
+                            <p>Working with Figma and Photoshop</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/edit.svg" alt="" class="skill-block_icon"></p>
+                            <p>Work with CMS systems</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/saved_search.svg" alt="" class="skill-block_icon"></p>
+                            <p>A basic understanding of SEO</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/dynamic_feed.svg" alt="" class="skill-block_icon"></p>
+                            <p>Ability to work with large volumes of information</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/team.svg" alt="" class="skill-block_icon"></p>
+                            <p>Teamwork skills</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/language.svg" alt="" class="skill-block_icon"></p>
+                            <p>Proficiency in English</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/chat.svg" alt="" class="skill-block_icon"></p>
+                            <p>Translation and interpreting skills</p>
+                        </div>
+                        <div class="skills-block__item">
+                            <p class="material-icons" ><img src="images/icons/file.svg" alt="" class="skill-block_icon"></p>
+                            <p>Translation of business correspondence and documentation</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="education-block block">
+                <div class="container">
+                    <div class="block-title">
+                        <h4 id="education">Resume</h4>
+                        <h3>A Summary of My Education</h3>
+                    </div>
+                    <div class="education-block__columns">
+                        <div class="education-block__column">
+                            <div class="education-block__item">
+                                <h6>Linguistic and Humanitarian College | The Branch of Minsk State Linguistic University</h6>
+                                <p class="text-year">SEPTEMBER 2014 — JUNE 2018</p>
+                                <p class="text-description">Specialty — Language Support of Socio-cultural Activities. Qualification — Organizer of social and cultural activities (with knowledge of a foreign language). Diploma with honors.</p>
+                            </div>
+                            <div class="education-block__item">
+                                <h6>Faculty of Intercultural Communication | Minsk State Linguistic University</h6>
+                                <p class="text-year">SEPTEMBER 2018 — JANUARY 2021</p>
+                                <p class="text-description">Specialty — Language Support of Intercultural Communication (major in Public Relations). Qualification — Spicailaist in Intercultural Communication. Translator/Interpreter (Advisor). Diploma with honors.</p>
+                            </div>
+                            <div class="education-block__item">
+                                <h6>The course of Website Development Basics | Belhard Academy </h6>
+                                <p class="text-year">MARCH 2022 — APRIL 2022</p>
+                                <p class="text-description">The course program includes development and architecture of modern websites, HTML5 basics, CSS3 basics, Adope Photoshop, software for developing websites, CSS Flexbox and CSS Grid layout models, JavaScript basics, CMS systems.</p>
+                            </div>
+                        </div>
+                        <div class="education-block__column">
+                            <div class="education-block__item">
+                                <h6>Web Layout Developer: Getting Started | WAYUP Educational Platform</h6>
+                                <p class="text-year">APRIL 2022 — MAY 2022</p>
+                                <p class="text-description">The course program includes the study of HTML/CSS basics, adaptive layout, working with CSS media queries, basic understanding of JavaScript, work on freelance platforms.</p>
+                            </div>
+                            <div class="education-block__item">
+                                <h6>The course of Modern Front-End using JavaScript and HTML5 |  Belhard Academy</h6>
+                                <p class="text-year">MAY 2022 — IN PROGRESS</p>
+                                <p class="text-description">The course program includes the study of JavaScript, Angular, work with DOM, CSS3 animation, Git, GitHub, HTML5 API, debugging tools Chrome, Firebug.</p>
+                            </div>
+                            <div class="education-block__item">
+                                <h6>JS / Front-End. Stage 0 | RS School Educational Platform</h6>
+                                <p class="text-year">JUNE 2022 — IN PROGRESS</p>
+                                <p class="text-description">The course program includes HTML Basics, Chrome Dev Tools, introduction to the Git Version Control System, CSS basics and positioning, CSS Flex, Figma, the study of JavaScript basics, DOM API, DOM Events, algorithms and data Structures.</p> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience-block block">
+                <div class="container">
+                    <div class="block-title">
+                        <h4 id="experience">Resume</h4>
+                        <h3>A Summary of My Experience</h3>
+                    </div>
+                    <div class="experience-block__columns">
+                        <div class="experience-block__column">
+                            <div class="experience-block__item">
+                                <h6>Administrator | JSC "Fizkultura i zdorovye"</h6>
+                                <p class="text-year">MARCH 2017 — AUGUST 2017</p>
+                                <p class="text-description">Work responsibilities: sports complex administrating, high-quality customer service and consulting, receiving incoming calls, providing information about the services, selling fitness services, preparing the club for work, working with possible objections, record keeping.</p>
+                            </div>
+                            <div class="experience-block__item">
+                                <h6>Office Manager | DV Tour Travel Agency</h6>
+                                <p class="text-year">СЕНТЯБРЬ 2018 — МАРТ 2020</p>
+                                <p class="text-description">Work responsibilities: translation and interpretation, work with business documentation, organization of office life support, work with clients and CRM systems, development of a content plan and maintenance of social media accounts, mailing lists.</p>
+                            </div>
+                        </div>
+                        <div class="experience-block__column">
+                            <div class="experience-block__item">
+                                <h6>Content Manager | Galore Online Store </h6>
+                                <p class="text-year">APRIL 2020 — JANUARY 2021</p>
+                                <p class="text-description">Work responsibilities: editing and updating information on the online store site, monitoring the correct operation of the site, creating text and graphic content, placing product cards, processing price lists, working with online store tools and third party platforms.</p>
+                            </div>
+                            <div class="experience-block__item">
+                                <h6>Translator | Individual Entrepreneur Baranov M.M. </h6>
+                                <p class="text-year">МАРТ 2021 — НАСТОЯЩЕЕ ВРЕМЯ</p>
+                                <p class="text-description">Work responsibilities: translations of various texts, business correspondence and documentation; editing translations made by other employees; consecutive interpreting during business meetings, maintaining recoreds in the approved form.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-block__item_last">
+                        <h6>Content Manager | Individual Entrepreneur Popovich V.P.</h6>
+                        <p class="text-year">FEBRUARY 2021 — PRESENT</p>
+                        <p class="text-description">Work responsibilities: creating original content on a gambling theme in English, searching and collecting information for writing texts, filling the website with content, working with CMS, editing and proofreading materials on the site, creating and processing simple images in graphic editors, SEO-optimization of text according to technical task, elimination of simple errors on the website and description of complex problems, website testing and participation in the development of the website, work with freelancers and control of the full-time specialists, reporting, development and analysis of the content plan.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio-block block">
+                <div class="container">
+                    <div class="block-title">
+                        <h4 id="portfolio">Portfolio</h4>
+                        <h3>My Works</h3>
+                    </div>
+                    <div class="portfolio-block__items">
+                        <div class="portfolio-block__item">
+                            <img src="images/1.jpg" alt="" class="portfolio-block__image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
+                        </div>
+                        <div class="portfolio-block__item">
+                            <img src="images/2.jpg" alt="" class="portfolio-block__image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
+                        </div>
+                        <div class="portfolio-block__item">
+                            <img src="images/3.jpg" alt="" class="portfolio-block__image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
+                        </div>
+                        <div class="portfolio-block__item">
+                            <img src="images/3.jpg" alt="" class="portfolio-block__image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="extra-block block">
+                <div class="container">
+                    <div class="block-title">
+                        <h4 id="more-info">Resume</h4>
+                        <h3>More Information</h3>
+                    </div>
+                    <div class="extra-block_columns">
+                        <div class="extra-block__text">
+                            <p>Personal qualities:<span> friendliness, creative approach to work, responsibility, self-discipline, analytical skills, accuracy and attention to detail, fast learner, having a team spirit and good communication skills, perfectionism.</span></p>
+                            <p>Availability for business trips:<span> yes.</span></p>
+                            <p> Hobbies:<span> reading books and watching films in English in original, attending quizzes and quests, playing the guitar, psychology, fitness.</span></p>
+                            <p>Code example:</p>
+<pre><code>var myImage = document.querySelector('img');
 
-
-
-
-<div class="biography-block"> 
-<div class="container">
-    <div class="about-me">
-<h4>About Me</h4>
-<h3>Know Me More</h3>
-<div class="about-me__main">
-<div class="about-me__text">
-<p class="title">Hi, I'm <span class="title__name">Erika Gumerova</span></p>
-<p class="text">Меня зовут Эрика. Я начинающий веб-разработчик. Сейчас я занимаюсь изучением таких технологий как HTML, CSS, JavaScript, работаю над своим портфолио и хочу продолжать и совершенствоваться сфере front-end разработки. Я с отличием закончила Минский государственный университет по специальности специалист по межкультурным коммуникациям и начала работать еще во время учебы, получила полезный опыт во многих сферах. Последний год я работаю контент-менеджером и эта работа дала мне возможность разобраться в устройстве сайтов. Также я занимаюсь репетиторством, обучая английскому языку взрослых и детей. Я способна добиться высоких результатов благодаря творческому подходу к проектам, ответственному отношению к работе и аналитическим способностям. Меня также отличает аккуратность и стремление и способность выполнить работу наилучшим образом. Еще мне комфортно работать в дружелюбной и спокойной обстановке, поэтому я стремлюсь к созданию такой атмосферы в коллективе. Я никогда не стою на месте и постоянно стремлюсь получать новые знания и успешно применять их в своей работе.</p>
-</div>
-<div class="about-me__experience">
-<p>1</p>
-<span>Year of <span>Experience</span></span>
-
-</div>
-</div>
-</div>
-<div class="about-me__columns">
-<div class="column">
-<p>Name:</p>
-<span>Erika Gumerova</span>
-</div>
-<div class="column">
-<p>Email:</p>
-<span>erika.gumerova@gmail.com</span>
-</div>
-<div class="column">
-<p>Date of birth:</p>
-<span>31 January, 1999</span>
-</div>
-<div class="column">
-<p>From:</p>
-<span>Minsk, Belarus</span>
-</div>
-</div>
-
-<div class="about-me__languages">
-
-    <p class="language-titles">Foreign languages:</p>
-    <p class="language-levels">English - C1, German - B2, Russian - C1, Belarusian - C1.</p>
-
-</div>
-
-
-
-</div>
-</div>
-
-
-<div class="skills-block">
-    <div class="container">
-        <div class="block-title">
-            <h4>What I Do?</h4>
-            <h3>My Skills</h3>
-        </div>
-        <div class="skills-block__items">
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-    
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-
-    <div class="skills-block__item">
-        <span class="material-icons">arrow_circle_down</span>
-        <p>Письменный перевод деловой переписки и документации</p>
-    </div>
-</div>
-
-</div>
-</div>
-
-
-
-
-
-
-<div class="education-block">
-    <div class="container">
-        <div class="block-title">
-        <h4>Resume</h4>
-        <h3>A Summary of My Education</h3>
-    </div>
-        <div class="education-block__columns">
-    <div class="education-block__column">
-<div class="education-block__item">
-<h6>«Лингвогуманитарный колледж» | Филиал МГЛУ</h6>
-<p class="text-year">СЕНТЯБРЬ 2014 – ИЮНЬ 2018</p>
-<p class="text-description">Специальность: Лингвистическое обеспечение социокультурной деятельности. Квалификация: Организатор социокультурной деятельности (со знанием иностранного языка). Диплом с отличием.</p>
-</div>
-<div class="education-block__item">
-<h6>Факультет межкультурных коммуникаций | Минский государственный лингвистический университет</h6>
-<p class="text-year">СЕНТЯБРЬ 2018 – ЯНВАРЬ 2021</p>
-<p class="text-description">Специальность: Лингвистическое обеспечение межкультурных коммуникаций (направление – связи с общественностью). Квалификация: Специалист по межкультурным коммуникациям. Переводчик-референт. Диплом с отличием.</p>
-</div>
-<div class="education-block__item">
-<h6>Курс «Основы разработки сайтов» | Академия Belhard </h6>
-<p class="text-year">МАРТ 2022 – АПРЕЛЬ 2022</p>
-<p class="text-description">Содержание курса: разработка и архитектура web-приложений, основы HTML5, основы   CSS3, профессиональные редакторы для разработки web-сайтов, модели верстки CSS Flexbox и CSS Grid, основы JavaScript, CMS-системы.</p>
-</div>
-</div>
-<div class="education-block__column">
-    <div class="education-block__item">
-<h6>Курс «Основы разработки сайтов» | Академия Belhard </h6>
-<p class="text-year">МАРТ 2022 – АПРЕЛЬ 2022</p>
-<p class="text-description">Содержание курса: разработка и архитектура web-приложений, основы HTML5, основы   CSS3, профессиональные редакторы для разработки web-сайтов, модели верстки CSS Flexbox и CSS Grid, основы JavaScript, CMS-системы.</p>
-</div>
-<div class="education-block__item">
-<h6>Курс «Основы разработки сайтов» | Академия Belhard.Курс «Основы разработки сайтов»</h6>
-<p class="text-year">МАРТ 2022 – АПРЕЛЬ 2022</p>
-<p class="text-description">Содержание курса: разработка и архитектура web-приложений, основы HTML5, основы   CSS3, профессиональные редакторы для разработки web-сайтов, модели верстки CSS Flexbox и CSS Grid, основы JavaScript, CMS-системы.</p>
-</div>
-<div class="education-block__item">
-<h6>Курс «Основы разработки сайтов» | Академия Belhard </h6>
-<p class="text-year">МАРТ 2022 – АПРЕЛЬ 2022</p>
-<p class="text-description">Содержание курса: разработка и архитектура web-приложений, основы HTML5, основы   CSS3, профессиональные редакторы для разработки web-сайтов, модели верстки CSS Flexbox и CSS Grid, основы JavaScript, CMS-системы.</p> 
-</div> 
-</div>
-
-</div>
-</div>
-</div>
-    
-
-
-<div class="experience-block">
-    <div class="container">
-        <div class="block-title">
-        <h4>Resume</h4>
-        <h3>A Summary of My Experience</h3>
-    </div>
-        <div class="experience-block__columns">
-    <div class="experience-block__column">
-<div class="experience-block__item">
-<h6>Администратор спортивного комплекса | ОАО «Физкультура и здоровье»</h6>
-<p class="text-year">МАРТ 2017 – АВГУСТ 2017</p>
-<p class="text-description">Обязанности: работа с клиентами, продажа фитнес услуг, подготовка клуба к работе, работа с возможными возражениями, ведение отчетности.</p>
-</div>
-<div class="experience-block__item">
-<h6>Офис-менеджер | Туристическая компания «ДВ-тур»</h6>
-<p class="text-year">СЕНТЯБРЬ 2018 – МАРТ 2020</p>
-<p class="text-description">Обязанности: осуществление устного и письменного перевода, работа с деловой документацией, >организация жизнеобеспечения офиса, работа с клиентами и CRM-системами, разработка контент-плана и ведение аккаунтов в социальных сетях, ведение рассылки.</p>
-</div>
-</div>
-<div class="experience-block__column">
-<div class="experience-block__item">
-<h6>Контент-менеджер | Интернет-магазин Galore </h6>
-<p class="text-year">АПРЕЛЬ 2020 – ЯНВАРЬ 2021</p>
-<p class="text-description">Обязанности: внесение и редактирование информации на сайте, контроль корректной работы сайта, создание текстового и графического контента, размещение карточек товаров, обработка прайс-листов, обновление данных в интернет-магазине, актуализация информации на сайте, работа с инструментами интернет-магазина и сторонними площадками, написание коротких текстов, редактирование фотографий.</p>
-</div>
-
-    <div class="experience-block__item">
-<h6>Переводчик | ИП Баранов М.М. </h6>
-<p class="text-year">МАРТ 2021 – НАСТОЯЩЕЕ ВРЕМЯ</p>
-<p class="text-description">Обязанности: осуществление устного и письменного перевода; переводы различных текстов, писем и документации; редактирование переводов, выполненных другими сотрудниками; последовательный перевод во время деловых встреч.</p>
-</div>
-</div>
-</div>
-<div class="experience-block__item_last">
-<h6>Контент-менеджер | ИП Попович В.П.</h6>
-<p class="text-year">ФЕВРАЛЬ 2021 – НАСТОЯЩЕЕ ВРЕМЯ</p>
-<p class="text-description">Обязанности: написание и оформление оригинального контента на игровую тематику на английском языке, поиск и сбор информации для написания текстов, наполнение сайта контентом, работа с CMS, редактура и корректура материалов на сайте, создание и обработка несложных изображений в графических редакторах, SEO-оптимизация текста по техническому заданию, устранение простых ошибок на сайте и описание сложных неполадок, участие в разработке сайта, работа с фрилансерами и контроль работы штатных специалистов, ведение отчетности, разработка и анализ контент-плана.</p>
-</div>
-</div>
-</div>
-
-
-<div class="portfolio-block">
-<div class="container">
-    <div class="block-title">
-        <h4>Potfolio</h4>
-        <h3>My Works</h3>
-    </div>
-<div class="portfolio-block__items">
-<div class="portfolio-block__item">
-    <img src="images/1.jpg" alt="">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cupiditate cum voluptatum ipsa repudiandae enim earum, rem fugit dolorum nihil, deleniti illo hic qui laudantium asperiores doloribus excepturi ducimus voluptatem?
-</div>
-
-<div class="portfolio-block__item">
-    <img src="images/2.jpg" alt="">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cupiditate cum voluptatum ipsa repudiandae enim earum, rem fugit dolorum nihil, deleniti illo hic qui laudantium asperiores doloribus excepturi ducimus voluptatem?
-</div>
-
-<div class="portfolio-block__item">
-    <img src="images/3.jpg" alt="">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cupiditate cum voluptatum ipsa repudiandae enim earum, rem fugit dolorum nihil, deleniti illo hic qui laudantium asperiores doloribus excepturi ducimus voluptatem?
-</div>
-
-
-<div class="portfolio-block__item">
-    <img src="images/3.jpg" alt="">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cupiditate cum voluptatum ipsa repudiandae enim earum, rem fugit dolorum nihil, deleniti illo hic qui laudantium asperiores doloribus excepturi ducimus voluptatem?
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-<div class="extra-block">
-<div class="container">
-<div class="block-title">
-    <h4>Resume</h4>
-    <h3>More Information</h3>
-</div>
-<div class="extra-block_columns">
-<div class="extra-block__text">
-<p>Личные качества:<span> Дружелюбие, Творческий подход к работе, Ответственность, Дисциплинированность; Аналитические способности, Аккуратность и внимательность к деталям; Быстрая обучаемость; умение работать в команде; Самокритичность.</span></p>
-<p>Готовность к командировкам:<span> иногда.</span></p>
-<p>Foreign languages:<span> English - C1, German - B2, Russian - C1, Belarusian - C1.</span></p>
-<p> Хобби:<span> чтение книг и просмотр фильмов на английском языке в оригинале, посещениеквизов и квестов, игра на гитаре, фитнес.</span></p>
-
-
-<p>Code example:</p>
-
-
-<code><pre>var myImage = document.querySelector('img');
-   
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute ('src','images/firefox2.png');
-    } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
-    }
-}</pre></code>
-</div>
-
-
-
-<div class="extra-block__photo">
-    <!-- <img class="my-photo2" src="images/me2.jpeg" alt=""> -->
-
-
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-</div>
+var mySrc = myImage.getAttribute('src');
+if(mySrc === 'images/firefox-icon.png') {
+    myImage.setAttribute ('src','images/firefox2.png');
+} else {
+    myImage.setAttribute ('src','images/firefox-icon.png');
+}
+}</code></pre>
+                        </div>
+                        <div class="extra-block__photo">
+                            <img src="images/me.png" alt="" class="my-photo2"> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="contact-block__preview">
+                <h2>Interested in working with me?</h2>
+                <h4><a href="mailto:erika.gumerova@gmail.com">Hire Me!</a></h4>
+            </div>
+            <section class="contact-block">
+                <div class="container">
+                    <!-- <div class="block-title">
+                            <h4>Resume</h4>
+                            <h3>More Information</h3>
+                        </div> -->
+                    <div class="contact-block__columns">
+                        <div class="contact-block__column1">
+                            <h6 class="contact-block__title">Let's get in touch</h6>
+                            <p>I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+                            <h5> Living In:</h5>
+                            <span>Minsk, Belarus.</span>
+                            <h5> Call:</h5>
+                            <span> +375 29 705 79 38</span>
+                        </div>
+                        <div class="contact-block__column2">
+                            <h6 class="contact-block__title" id="contacts">Contact Me</h6>
+                            <p>Email:<a href="mailto:erika.gumerova@gmail.com"> erika.gumerova@gmail.com</a></p>
+                            <p>Email:<a href="mailto:erika.gumerova@yandex.com"> erika.gumerova@yandex.com</a></p>
+                            <p>Instagram:<a href="https://www.instagram.com/rika.gumerova/"> rika.gumerova</a></p>
+                            <p>Telegram:<a href="https://t.me/erika_g"> erika_g</a></p>
+                            <p>Facebook:<a href="https://www.facebook.com/erika.gumerova.7"> Erika Gumerova</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-block">
+                    <p>Copyright © 2021. All Rights Reserved.</p>
+                    <p> Designed by <span>Erika Gumerova</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function printText( el ){
+        
+            let letterTimeout = 120
+        
+            let text = el.innerHTML
+            let i = 1
+        
+            let print__fn = function(){
+        
+                    if( i <= text.length ){
+                        el.innerHTML = text.substr( 0, i );
+                        setTimeout( arguments.callee, letterTimeout );
+                    }
+        
+                    i++;
+                }
+        
+            print__fn() // init
+        };
+        
+        // init
+        let el = document.getElementById( 'animation-text' )
+        printText( el );
+        </script>
 </body>
 </html>
