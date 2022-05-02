@@ -923,11 +923,11 @@ footer {
         padding: 20px 5px 20px;
     }
     .main-block__first h1 {
-        font-size: 22px;
+        font-size: 30px;
         text-align: center;
     }
     .main-block__first h2 {
-        font-size: 32px;
+        font-size: 42px;
         text-align: center;
     }
     .portfolio-block__image {
@@ -1108,4 +1108,14 @@ footer {
         font-size: 12px;
     }
    
+}
+    @media screen and (max-width: 400px) {
+        .main-block__first h1 {
+            font-size: 22px;
+            text-align: center;
+        }
+        .main-block__first h2 {
+            font-size: 32px;
+            text-align: center;
+        }
 }
