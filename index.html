@@ -18,7 +18,7 @@
         <header class="first-block block">
             <div class="container">
                 <nav class="main-menu">
-                    <p><a href="#home" class="scrollto">Home</a></p>
+                    <p><a href="#home">Home</a></p>
                     <p><a href="#about-me">About Me</a></p>
                     <p><a href="#skills">Skills</a></p>
                     <p><a href="#education">My Education</a></p>
@@ -33,9 +33,9 @@
                         <h2 id="animation-text">ERIKA GUMEROVA</h2>
                         <p id="animation-text2">based in Minsk, Belarus.</p>
                             <div class="main-block__buttons">
-                                <p class="button-works"><a href="#portfolio">View My Works</a></p>
-                                <p class="button-contact"><a href="#contacts">Contact me</a></p>
-                                <p class="main-block_icon" class="material-symbols-outlined"><a href="#contacts"><img src="images/icons/arrow_circle.svg" alt="" class="first-block_icon"></a></p>
+                                <div><p class="button-works"><a href="#portfolio">View My Works</a></p></div>
+                                <div class="main-block__buttons_contact"><p class="button-contact"><a href="#contacts">Contact me</a></p>
+                                <p class="main-block_icon"><a href="#contacts"><img src="images/icons/arrow_circle.svg" alt="" class="first-block_icon"></a></p></div>
                             </div>
                     </div>
                     <div class="main-block__photo">
@@ -180,7 +180,7 @@
                             </div>
                             <div class="education-block__item">
                                 <h6>JS / Front-End. Stage 0 | RS School Educational Platform</h6>
-                                <p class="text-year">JUNE 2022 — IN PROGRESS</p>
+                                <p class="text-year">DECEMBER 2022 — IN PROGRESS</p>
                                 <p class="text-description">The course program includes HTML Basics, Chrome Dev Tools, introduction to the Git Version Control System, CSS basics and positioning, CSS Flex, Figma, the study of JavaScript basics, DOM API, DOM Events, algorithms and data Structures.</p> 
                             </div> 
                         </div>
@@ -233,22 +233,22 @@
                         <h3>My Works</h3>
                     </div>
                     <div class="portfolio-block__items">
-                        <div class="portfolio-block__item">
-                            <img src="images/1.jpg" alt="" class="portfolio-block__image">
+                        <a href="https://erikagumerova.github.io/cakes/" target="_blank"><div class="portfolio-block__item">
+                            <img src="images/portfolio1.png" alt="" class="portfolio-block__image">
+                            <p>Cake Catalog Website</p>
+                        </div></a>
+                        <a href="https://erikagumerova.github.io/quiz/" target="_blank"><div class="portfolio-block__item">
+                            <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
+                            <p>JavaScript Quiz</p>
+                        </div></a>
+                        <a href="https://erikagumerova.github.io/tic-tac-toe/" target="_blank"><div class="portfolio-block__item">
+                            <img src="images/portfolio3.png" alt="" class="portfolio-block__image">
+                            <p> Tic-Tac-Toe</p>
+                        </div></a>
+                        <a href="https://erikagumerova.github.io/quiz/" target="_blank"><div class="portfolio-block__item">
+                            <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
-                        </div>
-                        <div class="portfolio-block__item">
-                            <img src="images/2.jpg" alt="" class="portfolio-block__image">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
-                        </div>
-                        <div class="portfolio-block__item">
-                            <img src="images/3.jpg" alt="" class="portfolio-block__image">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
-                        </div>
-                        <div class="portfolio-block__item">
-                            <img src="images/3.jpg" alt="" class="portfolio-block__image">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id praesentium fugit</p>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             </section>
@@ -287,18 +287,14 @@ if(mySrc === 'images/firefox-icon.png') {
             </div>
             <section class="contact-block">
                 <div class="container">
-                    <!-- <div class="block-title">
-                            <h4>Resume</h4>
-                            <h3>More Information</h3>
-                        </div> -->
                     <div class="contact-block__columns">
                         <div class="contact-block__column1">
                             <h6 class="contact-block__title">Let's get in touch</h6>
                             <p>I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
                             <h5> Living In:</h5>
                             <span>Minsk, Belarus.</span>
-                            <h5> Call:</h5>
-                            <span> +375 29 705 79 38</span>
+                            <h5> Call:</h5> 
+                            <span>+375 29 705 79 38</span>
                         </div>
                         <div class="contact-block__column2">
                             <h6 class="contact-block__title" id="contacts">Contact Me</h6>
@@ -339,10 +335,9 @@ if(mySrc === 'images/firefox-icon.png') {
                     i++;
                 }
         
-            print__fn() // init
+            print__fn() 
         };
         
-        // init
         let el = document.getElementById( 'animation-text' )
         printText( el );
         </script>
