@@ -1104,16 +1104,22 @@ footer {
    
 }
 
+/* 401px - 417px */ 
+@media screen and (max-width: 417px) {
+    .main-block__text h2 {
+        font-size: 30px;
+    }
+}
+
 /* 312px - 400px */
 @media screen and (max-width: 400px) {
     .main-block__text h1 {
         font-size: 22px;
         text-align: center;
-	margin-bottom: 20px;
     }
     .main-block__text h2 {
-        font-size: 30px;
         text-align: center;
+        margin-bottom: 20px;
     }
     .portfolio-block__items img {
         width: 250px;
