@@ -21,10 +21,18 @@ html, body, main {
 }
 
 :root {
-    /* --myColor: #f5df4e; */
+    --myColor: #f5df4e;
+    --myColor: #00fe9c;
+    
+    --myColor: #00fe9c;
+    --myColor: #ba54ff;
+    
+    --myColor: #aa78cc;
+    --myColor: #cc86fc;
+    --myColor: #b8a4fc;
+   
     /* --myColor: #c8a2c8; */
     /* --myColor: #c9a0dc; */
-    --myColor: #f5df4e;
     /* --myColor: #c4a6c4; */
 }
 
@@ -144,8 +152,7 @@ h4 {
 .main-block__text h2 {
     font-size: 80px;
     font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin: 0 0 25px;
     line-height: 1.2;
 }
 
@@ -1104,14 +1111,17 @@ footer {
    
 }
 
-/* 401px - 417px */ 
-@media screen and (max-width: 417px) {
+/* 401px - 420px */
+@media screen and (max-width: 420px) {
     .main-block__text h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
-/* 312px - 400px */
+
+
+
+/* 346px - 400px */
 @media screen and (max-width: 400px) {
     .main-block__text h1 {
         font-size: 22px;
@@ -1120,8 +1130,24 @@ footer {
     .main-block__text h2 {
         text-align: center;
         margin-bottom: 20px;
+        font-size: 34px;
     }
     .portfolio-block__items img {
         width: 250px;
+    }
+}
+
+/* 329px - 346px */ 
+@media screen and (max-width: 346px) {
+    .main-block__text h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* 312px - 329px */ 
+@media screen and (max-width: 329px) {
+    .main-block__text h2 {
+        font-size: 30px;
     }
 }
