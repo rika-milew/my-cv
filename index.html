@@ -13,48 +13,34 @@
     <!-- <link href="images/favicon.png" rel="icon" /> -->
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
 </head>
 <body>
     <div class="wrapper">
         <header class="first-block block">
-       <div class="header">
-            <div class="container">
-                <div class="header__body">
-                <a href="#">
-                    <img src="images/me.png" alt="" width="20">
-                </a>
-                <div class="header__menu">
-                    <ul class="header__list">
-                    <a href="#home" class="header__link"><li>Home</li></a>
-                    <a href="#about-me" class="header__link"><li>About Me</li></a>
-<a href="#skills" class="header__link"><li>Skills</li></a>
-<a href="#education" class="header__link"><li>My Education</li></a>
-<a href="#experience" class="header__link"><li>My Experience</li></a>
-<a href="#portfolio" class="header__link"><li>Portfolio</li></a>
-<a href="#more-info" class="header__link"><li>More info</li></a>
-<a href="#contacts" class="header__link"><li>Contacts</li></a>
-                    </ul>
+            <div class="header">
+                <div class="container">
+                    <div class="header__body">
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                            <a href="#home" class="header__link"><li>Home</li></a>
+                            <a href="#about-me" class="header__link"><li>About Me</li></a>
+                            <a href="#skills" class="header__link"><li>Skills</li></a>
+                            <a href="#education" class="header__link"><li>My Education</li></a>
+                            <a href="#experience" class="header__link"><li>My Experience</li></a>
+                            <a href="#portfolio" class="header__link"><li>Portfolio</li></a>
+                            <a href="#more-info" class="header__link"><li>More info</li></a>
+                            <a href="#contacts" class="header__link"><li>Contacts</li></a>
+                            </ul>
+                        </nav>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                 </div>
-                <div class="header__burger">
-                    <span></span>
                 </div>
             </div>
-            </div>
-        </div>
-        
             <div class="container">
-                <!-- <nav class="main-menu">
-                    <p><a href="#home">Home</a></p>
-                    <p><a href="#about-me">About Me</a></p>
-                    <p><a href="#skills">Skills</a></p>
-                    <p><a href="#education">My Education</a></p>
-                    <p><a href="#experience">My Experience</a></p>
-                    <p><a href="#portfolio">Portfolio</a></p>
-                    <p><a href="#more-info">More info</a></p>
-                    <p><a href="#contacts">Contacts</a></p>
-                </nav> -->
-                <div class="main-block">
+                <div class="main-block" id="home">
                     <div class="main-block__text">
                         <h1>HI, I'M A WEB-DEVELOPER </h1>
                         <h2 id="animation-text">ERIKA GUMEROVA</h2>
@@ -344,10 +330,10 @@ if(mySrc === 'images/firefox-icon.png') {
             </div>
         </footer>
     </div>
-    <!-- <script
-  src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
-  </script> -->
-  <script src="js/script1.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="js/script1.js"></script>
     <script>
         function printText( el ){
         
@@ -371,6 +357,6 @@ if(mySrc === 'images/firefox-icon.png') {
         
         let el = document.getElementById( 'animation-text' )
         printText( el );
-        </script>
+    </script>
 </body>
 </html>
