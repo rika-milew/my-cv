@@ -932,7 +932,7 @@ footer {
         overflow: auto;
         text-align: center;
         opacity: 0.95;
-        background-color: #000000;
+        background-color: #212529;
     }
 
     .header__menu.active {
