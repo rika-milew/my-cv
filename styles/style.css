@@ -374,6 +374,7 @@ z-index: 3;
 .about-me__experience span {
     font-size: 28px;
     font-weight: 400;
+    text-align: center;
 }
     
 .about-me__experience span span {
