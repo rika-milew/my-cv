@@ -79,6 +79,7 @@ h4 {
     margin-top: 0;
     color: #212529;
     text-align: center;
+    box-shadow: 5px 5px 20px 0px rgb(44, 39, 39);
 }
 
 /* burger menu */
@@ -95,7 +96,7 @@ h4 {
     content: '';
     position: absolute;
     top: 0;
-   left: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: #212529;
@@ -113,6 +114,7 @@ h4 {
 
 .header__burger {
     display: none;
+    cursor: pointer;
 } 
 
 .header__list {
@@ -125,7 +127,8 @@ h4 {
 
 .header__list li {
     list-style: none;
-padding: 0 32px 0 32px;
+    padding: 0 32px 0 32px;
+    /* margin-bottom: 12px; */
 }
 
 .header__list a {
@@ -133,6 +136,7 @@ padding: 0 32px 0 32px;
     font-size: 20px;
     text-decoration: none;
 }
+
 
 /* .header__logo {
 flex: 0 0 50px;
@@ -200,6 +204,7 @@ z-index: 3;
     flex-direction: column;
     flex-basis: 55%;
     justify-content: center;
+    /* border: 2px solid green; */
 }
 
 .main-block__photo {
@@ -243,12 +248,26 @@ z-index: 3;
     padding: 12px 40px;
     font-size: 18px;
     cursor: pointer;
+    box-shadow: 5px 5px 20px 0px rgb(44, 39, 39);
+}
+
+.main-block__buttons_works:hover {
+    box-shadow: 5px 5px 20px 0px var(--myColor);
+    transition: all 0.2s ease 0s;
 }
 
 .button-contact {
     font-size: 18px;
     padding-left: 50px;
     cursor: pointer;
+    color: #212529;
+}
+
+.button-contact:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+    /* color: #f8f9fa;
+    transition: color .4s linear; */
 }
 
 .main-block__buttons {
@@ -469,6 +488,7 @@ z-index: 3;
     color: #212529;
     margin-top: 0;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
     
 .text-description {
@@ -625,6 +645,15 @@ code {
     background-color: var(--myColor);
     padding: 8px 25px;
     width: max-content;
+    box-shadow: 5px 5px 20px 0px rgb(44, 39, 39);
+    border: 2px solid var(--myColor);
+}
+
+.contact-block__preview h4:hover {
+    border: 2px solid #212529;
+    transition: all 0.3s ease 0s;
+    box-shadow: 5px 5px 20px 0px rgb(44, 39, 39);
+    cursor: pointer;
 }
 
 .contact-block__preview h4 a {
@@ -677,6 +706,11 @@ code {
 
 }
 
+.contact-block__column1 a {
+    text-decoration: none;
+    color: #212529;
+}
+
 .contact-block__column1 span {
     font-size: 19px;
     color: #212529;
@@ -705,6 +739,7 @@ code {
     font-size: 21px;
     text-decoration: none;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .contact-block__column2 p a:hover {
@@ -716,11 +751,11 @@ code {
 
 footer {
     width: 100%;
+    /* background-color: #212529; */
     background-color: #212529;
 }
 
 .footer-block {
-    color: #fff;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -728,16 +763,25 @@ footer {
 }
 
 .footer-block p {
-    color: #fff;
+    /* color: #fff; */
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
-    margin: 0;
+    margin: 5px auto 0;
 }
 
 .footer-block p span {
     color: var(--myColor);
     text-decoration: underline;
     margin: 0;
+}
+
+.footer-block__logo {
+    display: flex;
+}
+
+.footer-block__logo img {
+    padding-left: 20px;
 }
 
 /*Responsive*/
@@ -922,6 +966,7 @@ footer {
         font-weight: 600;
     }
 
+
     .header__menu {
         position: fixed;
         display: none;
@@ -956,11 +1001,11 @@ footer {
 
     .header__list {
         display: block;
-	margin-top: 10px;
+        margin-top: 10px;
     }
 
-    .header__list a li {
-        margin: 0 0 20px 0;
+    .header__list li {
+         margin-bottom: 12px;
     }
 
 	.container {
