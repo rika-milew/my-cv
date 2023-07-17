@@ -1,3 +1,28 @@
+/* Borders  */
+
+/* .container {
+    border: 3px solid darkblue;
+    } 
+
+.main-menu {
+    border: 2px solid indigo;
+}
+
+.main-block {
+    border: 3px solid darkcyan;
+}
+        
+.main-block__first,
+.first-block__photo {
+    border: 3px solid f8f9fa;
+        } */
+
+/* .education-block {
+    border: 3px solid blue;
+            
+}
+             */
+
 /* General */
 
 html, body, main {
@@ -137,7 +162,6 @@ h4 {
     text-decoration: none;
 }
 
-
 /* .header__logo {
 flex: 0 0 50px;
 border-radius: 50%;
@@ -228,7 +252,7 @@ z-index: 3;
 }
 
 .main-block__text h2 {
-    font-size: 80px;
+    font-size: 77px;
     font-weight: 600;
     margin: 0 0 25px;
     line-height: 1.2;
@@ -801,7 +825,7 @@ footer {
     }
 
     .main-block__text h2 {
-        font-size: 68px;
+        font-size: 65px;
     }
 
     .main-block__text h1 {
@@ -1483,10 +1507,21 @@ footer {
     }
 }
 
+/* 420px - 442px */
+@media screen and (max-width: 442px) {
+    .main-block__text h2 {
+        font-size: 39px;
+        width: 100%;
+    }
+
+}
+
+
+
 /* 401px - 420px */
 @media screen and (max-width: 420px) {
     .main-block__text h2 {
-        font-size: 40px;
+        font-size: 37px;
     }
 
     .main-block__text {
@@ -1509,7 +1544,7 @@ footer {
     .main-block__text h2 {
         text-align: center;
         margin-bottom: 20px;
-        font-size: 34px;
+        font-size: 31px;
     }
 
     .portfolio-block__items img {
@@ -1524,7 +1559,7 @@ footer {
 /* 329px - 346px */ 
 @media screen and (max-width: 346px) {
     .main-block__text h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .header__body {
@@ -1535,6 +1570,6 @@ footer {
 /* 312px - 329px */ 
 @media screen and (max-width: 329px) {
     .main-block__text h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
