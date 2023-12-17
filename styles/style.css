@@ -54,18 +54,18 @@ html, body, main {
 }
 
 :root {
-    --myColor: #f5df4e;
-    /* --myColor: #00fe9c;
+    /* --myColor: #f5df4e; */
+    /* --myColor: #00fe9c; */
     
-    --myColor: #00fe9c;
-    --myColor: #ba54ff;
+    /* --myColor: #00fe9c; */
+    /* --myColor: #ba54ff; */
     
-    --myColor: #aa78cc;
+    /* --myColor: #aa78cc;
     --myColor: #cc86fc;
-    --myColor: #b8a4fc; */
-   
+    --myColor: #b8a4fc;
+    */
     /* --myColor: #c8a2c8; */
-    /* --myColor: #c9a0dc; */
+    --myColor: #c9a0dc;
     /* --myColor: #c4a6c4; */
 }
 
@@ -639,7 +639,7 @@ z-index: 3;
 }
 
 code {
-    font-size: 21px;
+    font-size: 20px;
     color: #212529;
 }
 
@@ -925,6 +925,10 @@ footer {
 
     .portfolio-block__items img {
         width: 400px;
+    }
+
+    pre {
+        margin-bottom: 50px;
     }
 }
 
