@@ -277,16 +277,20 @@
                             <p>Availability for business trips:<span> yes.</span></p>
                             <p> Hobbies:<span> reading books and watching films in English in original, attending quizzes and quests, playing the guitar, psychology, fitness.</span></p>
                             <p>Code example:</p>
-<pre><code>var myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-var mySrc = myImage.getAttribute('src');
-if(mySrc === 'images/icon1.png') {
-    myImage.setAttribute ('src','images/icon2.png');
-} else {
-    myImage.setAttribute ('src','images/icon1.png');
+<pre><code>const greeting = document.querySelector('.greeting');
+    
+function getTimeOfDay() {
+    const date = new Date();
+    const hours = date.getHours();
+    if (hours < 6) return "night";
+    else if (hours < 12) return "morning";
+    else if (hours < 18) return "afternoon";
+    else return "evening";  
 }
-}</code></pre>
+
+const timeOfDay = getTimeOfDay();
+const greetingText = `Good ${timeOfDay}`;
+greeting.textContent = greetingText;</code></pre>
                         </div>
                         <div class="extra-block__photo">
                             <img src="images/me.png" alt="" class="my-photo2"> 
@@ -312,9 +316,9 @@ if(mySrc === 'images/icon1.png') {
                         <div class="contact-block__column2">
                             <h6 class="contact-block__title" id="contacts">Contact Me</h6>
                                 <p>Email:<a href="mailto:erika.milewska@gmail.com"> erika.milewska@gmail.com</a></p>
-                                <p>Instagram:<a href="https://www.instagram.com/rika.miles/"> rika.miles</a></p>
+                                <p>Instagram:<a href="https://www.instagram.com/rika.milew/"> rika.milew</a></p>
                                 <p>Telegram:<a href="https://t.me/erika_mee"> erika_mee</a></p>
-                                <p>Facebook:<a href="https://www.facebook.com/erika.gumerova.7"> Erika Gumerova</a></p>
+                                <p>Facebook:<a href="https://www.facebook.com/erika.gumerova.7"> Erika Milevskaya</a></p>
                                 <!-- <p>Discord:<a> Erika Gumerova (@erikagumerova)</a></p> -->
                                 <p>Github:<a href="https://github.com/rika-milew"> rika-milew</a></p>
                         </div>
