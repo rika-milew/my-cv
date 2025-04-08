@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Erika Milevskaya</title>
     <meta name="description" content="Web-developer, about me, my works">
     <!-- Web Fonts -->
@@ -13,7 +13,6 @@
     <link href="images/icon-planet.svg" rel="icon">
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
 </head>
 <body>
     <div class="wrapper">
@@ -33,10 +32,10 @@
                                 <li><a href="#contacts" class="header__link">Contacts</a></li>
                             </ul>
                         </nav>
-                    <div class="header__burger">
-                        <span></span>
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <div class="container">
@@ -45,11 +44,15 @@
                         <h1>Hi, I'm a web-developer</h1>
                         <h2 id="animation-text">Erika Milevskaya</h2>
                         <p>based in Minsk, Belarus.</p>
-                            <div class="main-block__buttons">
-                                <div><p class="main-block__buttons_works"><a href="#portfolio">View My Works</a></p></div>
-                                <div class="main-block__buttons_contact"><p class="button-contact"><a href="#contacts">Contact me</a></p>
-                                <p class="main-block__icon"><a href="#contacts"><img src="images/icons/arrow_circle.svg" alt=""></a></p></div>
+                        <div class="main-block__buttons">
+                            <div>
+                                <p class="main-block__buttons_works"><a href="#portfolio">View My Works</a></p>
                             </div>
+                            <div class="main-block__buttons_contact">
+                                <p class="button-contact"><a href="#contacts">Contact me</a></p>
+                                <p class="main-block__icon"><a href="#contacts"><img src="images/icons/arrow_circle.svg" alt=""></a></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="main-block__photo">
                         <img src="images/me5.jpg" alt="My Photo" class="my-photo"> 
@@ -63,16 +66,16 @@
                     <div class="about-me">
                         <h4>About Me</h4>
                         <h3>Know Me More</h3>
-                            <div class="about-me__main">
-                                <div class="about-me__text">
-                                    <p class="title">Hi, I'm <span class="title__name">Erika Milevskaya</span></p>
-                                    <p class="text">My name is Erika. I am a beginner web developer. Now I am studying technologies such as HTML, CSS, JavaScript and working hard on my portfolio. I want to continue my studies and improve in the field of front-end development. In 2021, I graduated with honors from Minsk State Linguistic University with a degree in intercultural communication. In addition, I started working during my studies. In hindsight, it gave me great opportunitues to gain useful experience in many areas. For the last years, I have been working as a content manager, and this job has given me the opportunity to understand the structure and work of websites. In addition, I do tutoring, teaching English to adults and children. First and foremost, I am able to achieve high results thanks to a creative approach to projects, a responsible attitude to work and my great analytical skills. I am also distinguished by accuracy and the desire to do the job in the best possible way. Besides, I feel comfortable working in a friendly and relaxed environment, so I do my best to maintain such an atmosphere in the team. I always move forward and constantly strive to acquire new knowledge and successfully apply it in my work.</p>
-                                </div>
-                                <div class="about-me__experience">
-                                    <p>1</p>
-                                    <span>Year of <span>Experience</span></span>
-                                </div>
+                        <div class="about-me__main">
+                            <div class="about-me__text">
+                                <p class="title">Hi, I'm <span class="title__name">Erika Milevskaya</span></p>
+                                <p class="text">My name is Erika. I am a beginner web developer. Now I am studying technologies such as HTML, CSS, JavaScript and working hard on my portfolio. I want to continue my studies and improve in the field of front-end development. In 2021, I graduated with honors from Minsk State Linguistic University with a degree in intercultural communication. In addition, I started working during my studies. In hindsight, it gave me great opportunitues to gain useful experience in many areas. For the last years, I have been working as a content manager, and this job has given me the opportunity to understand the structure and work of websites. In addition, I do tutoring, teaching English to adults and children. First and foremost, I am able to achieve high results thanks to a creative approach to projects, a responsible attitude to work and my great analytical skills. I am also distinguished by accuracy and the desire to do the job in the best possible way. Besides, I feel comfortable working in a friendly and relaxed environment, so I do my best to maintain such an atmosphere in the team. I always move forward and constantly strive to acquire new knowledge and successfully apply it in my work.</p>
                             </div>
+                            <div class="about-me__experience">
+                            <p>1</p>
+                            <span>Year of <span>Experience</span></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="about-me__columns">
                         <div>
@@ -246,21 +249,25 @@
                         <h3>My Works</h3>
                     </div>
                     <div class="portfolio-block__items">
-                        <a href="https://rika-milew.github.io/cakes/" target="_blank"><div class="portfolio-block__item">
-                            <img src="images/portfolio1.png" alt="" class="portfolio-block__image">
-                            <p>Cake Catalog Website</p>
-                        </div></a>
-                        <a href="https://rika-milew.github.io/quiz/" target="_blank"><div class="portfolio-block__item">
-                            <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
-                            <p>JavaScript Quiz</p>
-                        </div></a>
+                        <a href="https://rika-milew.github.io/cakes/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio1.png" alt="" class="portfolio-block__image">
+                                <p>Cake Catalog Website</p>
+                            </div>
+                        </a>
+                        <a href="https://rika-milew.github.io/plants/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio5.png" alt="" class="portfolio-block__image">
+                                <p>Plants Website</p>
+                            </div>
+                        </a>
                         <a href="https://rika-milew.github.io/tic-tac-toe/" target="_blank"><div class="portfolio-block__item">
                             <img src="images/portfolio3.png" alt="" class="portfolio-block__image">
                             <p> Tic-Tac-Toe</p>
                         </div></a>
-                        <a href="https://rika-milew.github.io/plants/" target="_blank"><div class="portfolio-block__item">
-                            <img src="images/portfolio5.png" alt="" class="portfolio-block__image">
-                            <p>Plants Website</p>
+                        <a href="https://rika-milew.github.io/quiz/" target="_blank"><div class="portfolio-block__item">
+                            <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
+                            <p>JavaScript Quiz</p>
                         </div></a>
                     </div>
                 </div>
@@ -278,19 +285,19 @@
                             <p> Hobbies:<span> reading books and watching films in English in original, attending quizzes and quests, playing the guitar, psychology, fitness.</span></p>
                             <p>Code example:</p>
 <pre><code>const greeting = document.querySelector('.greeting');
-    
-function getTimeOfDay() {
-    const date = new Date();
-    const hours = date.getHours();
-    if (hours < 6) return "night";
-    else if (hours < 12) return "morning";
-    else if (hours < 18) return "afternoon";
-    else return "evening";  
-}
 
-const timeOfDay = getTimeOfDay();
-const greetingText = `Good ${timeOfDay}`;
-greeting.textContent = greetingText;</code></pre>
+    function getTimeOfDay() {
+      const hour = new Date().getHours();
+      if (hour >= 0 && hour &lt; 6) return "night";
+      if (hour >= 6 && hour &lt; 12) return "morning";
+      if (hour >= 12 && hour &lt; 18) return "afternoon";
+      return "evening";
+    }
+    
+    if (greeting) {
+      const timeOfDay = getTimeOfDay();
+      greeting.textContent = `Good ${timeOfDay}`;
+    }</code></pre>
                         </div>
                         <div class="extra-block__photo">
                             <img src="images/me.png" alt="" class="my-photo2"> 
@@ -315,12 +322,12 @@ greeting.textContent = greetingText;</code></pre>
                         </div>
                         <div class="contact-block__column2">
                             <h6 class="contact-block__title" id="contacts">Contact Me</h6>
-                                <p>Email:<a href="mailto:erika.milewska@gmail.com"> erika.milewska@gmail.com</a></p>
-                                <p>Instagram:<a href="https://www.instagram.com/rika.milew/"> rika.milew</a></p>
-                                <p>Telegram:<a href="https://t.me/erika_mee"> erika_mee</a></p>
-                                <p>Facebook:<a href="https://www.facebook.com/erika.gumerova.7"> Erika Milevskaya</a></p>
-                                <!-- <p>Discord:<a> Erika Gumerova (@erikagumerova)</a></p> -->
-                                <p>Github:<a href="https://github.com/rika-milew"> rika-milew</a></p>
+                            <p>Email:<a href="mailto:erika.milewska@gmail.com"> erika.milewska@gmail.com</a></p>
+                            <p>Instagram:<a href="https://www.instagram.com/rika.milew/"> rika.milew</a></p>
+                            <p>Telegram:<a href="https://t.me/erika_mee"> erika_mee</a></p>
+                            <p>Facebook:<a href="https://www.facebook.com/erika.gumerova.7"> Erika Milevskaya</a></p>
+                            <!-- <p>Discord:<a> Erika Gumerova (@erikagumerova)</a></p> -->
+                            <p>Github:<a href="https://github.com/rika-milew"> rika-milew</a></p>
                         </div>
                     </div>
                 </div>
@@ -330,7 +337,7 @@ greeting.textContent = greetingText;</code></pre>
             <div class="container">
                 <div class="footer-block">
                     <div>
-                        <p>Copyright © 2023. All Rights Reserved.</p>
+                        <p>Copyright © 2025. All Rights Reserved.</p>
                     </div>
                     <div class="footer-block__logo">
                         <p>Designed by <span>Erika Milevskaya</span></p>
@@ -343,29 +350,5 @@ greeting.textContent = greetingText;</code></pre>
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
     </script>
     <script src="js/script1.js"></script>
-    <script>
-        function printText( el ){
-        
-            let letterTimeout = 120
-        
-            let text = el.innerHTML
-            let i = 1
-        
-            let print__fn = function(){
-        
-                    if( i <= text.length ){
-                        el.innerHTML = text.substr( 0, i );
-                        setTimeout( arguments.callee, letterTimeout );
-                    }
-        
-                    i++;
-                }
-        
-            print__fn() 
-        };
-        
-        let el = document.getElementById( 'animation-text' )
-        printText( el );
-    </script>
 </body>
 </html>
