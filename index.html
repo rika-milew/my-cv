@@ -287,10 +287,10 @@
 <pre><code>const greeting = document.querySelector('.greeting');
 
     function getTimeOfDay() {
-      const hour = new Date().getHours();
-      if (hour >= 0 && hour &lt; 6) return "night";
-      if (hour >= 6 && hour &lt; 12) return "morning";
-      if (hour >= 12 && hour &lt; 18) return "afternoon";
+      const hours = new Date().getHours();
+      if (hours >= 0 && hours &lt; 6) return "night";
+      if (hours >= 6 && hours &lt; 12) return "morning";
+      if (hours >= 12 && hours &lt; 18) return "afternoon";
       return "evening";
     }
     
