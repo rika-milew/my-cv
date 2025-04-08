@@ -350,5 +350,29 @@
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
     </script>
     <script src="js/script1.js"></script>
+    <script>
+        function printText( el ){
+        
+            let letterTimeout = 120
+        
+            let text = el.innerHTML
+            let i = 1
+        
+            let print__fn = function(){
+        
+                    if( i <= text.length ){
+                        el.innerHTML = text.substr( 0, i );
+                        setTimeout( arguments.callee, letterTimeout );
+                    }
+        
+                    i++;
+                }
+        
+            print__fn() 
+        };
+        
+        let el = document.getElementById( 'animation-text' )
+        printText( el );
+    </script>
 </body>
 </html>
