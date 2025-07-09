@@ -40,4 +40,6 @@ A responsive personal CV/portfolio website built with HTML, CSS, and JavaScript.
 
 For feedback or collaboration, feel free to reach out via the contact form on the site.
 
-© 2025 Rika Milew – All rights reserved.
+## 👩‍💻 Author
+
+Created by [@rika-milew](https://github.com/rika-milew) 
