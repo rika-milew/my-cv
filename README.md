@@ -42,4 +42,4 @@ For feedback or collaboration, feel free to reach out via the contact form on th
 
 ## 👩‍💻 Author
 
-Created by [@rika-milew](https://github.com/rika-milew) 
+Created by [@rika-milew](https://github.com/rika-milew) – for learning and portfolio purposes.
