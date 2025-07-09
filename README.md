@@ -8,11 +8,13 @@ A responsive personal CV/portfolio website built with HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
-- Responsive layout (mobile, tablet, desktop)
+- Adaptive responsive layout (mobile, tablet, desktop)
 - CSS Grid and Flexbox layout system
+- Clean and modern design
 - Smooth navigation
 - Contact form (UI only)
-- Clean and semantic HTML
+- Interactive burger menu using jQuery
+- Semantic HTML5 structure
 
 ## 📁 Project Structure
 
@@ -32,6 +34,7 @@ A responsive personal CV/portfolio website built with HTML, CSS, and JavaScript.
 - HTML5
 - CSS3 (Grid, Flexbox)
 - JavaScript (Vanilla)
+- jQuery (for burger menu functionality)
 
 ## 📬 Contact
 
