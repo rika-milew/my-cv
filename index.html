@@ -249,6 +249,18 @@
                         <h3>My Works</h3>
                     </div>
                     <div class="portfolio-block__items">
+                        <a href="https://rika-milew.github.io/nft/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio7.png" alt="" class="portfolio-block__image">
+                                <p>NFT Landing Page</p>
+                            </div>
+                        </a>
+                        <a href="https://rika-milew.github.io/portfolio/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio6.png" alt="" class="portfolio-block__image">
+                                <p>Personal Portfolio Website</p>
+                            </div>
+                        </a>
                         <a href="https://rika-milew.github.io/plants/" target="_blank">
                             <div class="portfolio-block__item">
                                 <img src="images/portfolio5.png" alt="" class="portfolio-block__image">
@@ -261,14 +273,18 @@
                                 <p>Cake Catalog Website</p>
                             </div>
                         </a>
-                        <a href="https://rika-milew.github.io/tic-tac-toe/" target="_blank"><div class="portfolio-block__item">
-                            <img src="images/portfolio3.png" alt="" class="portfolio-block__image">
-                            <p> Tic-Tac-Toe</p>
-                        </div></a>
-                        <a href="https://rika-milew.github.io/quiz/" target="_blank"><div class="portfolio-block__item">
-                            <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
-                            <p>JavaScript Quiz</p>
-                        </div></a>
+                        <a href="https://rika-milew.github.io/baby-feeding-tracker/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio8.png" alt="" class="portfolio-block__image">
+                                <p>Baby Feeding Tracker App</p>
+                            </div>
+                        </a>
+                        <a href="https://rika-milew.github.io/quiz/" target="_blank">
+                            <div class="portfolio-block__item">
+                                <img src="images/portfolio2.png" alt="" class="portfolio-block__image">
+                                <p>JavaScript Quiz</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -351,28 +367,28 @@
     </script>
     <script src="js/script1.js"></script>
     <script>
-        function printText( el ){
+        function printText(el) {
         
-            let letterTimeout = 120
+            let letterTimeout = 120;
         
-            let text = el.innerHTML
-            let i = 1
+            let text = el.innerHTML;
+            let i = 1;
         
-            let print__fn = function(){
+            let print__fn = function() {
         
-                    if( i <= text.length ){
-                        el.innerHTML = text.substr( 0, i );
-                        setTimeout( arguments.callee, letterTimeout );
+                    if (i <= text.length) {
+                        el.innerHTML = text.substr(0,i);
+                        setTimeout(arguments.callee, letterTimeout);
                     }
         
                     i++;
                 }
         
-            print__fn() 
+            print__fn() ;
         };
         
-        let el = document.getElementById( 'animation-text' )
-        printText( el );
+        let el = document.getElementById('animation-text');
+        printText(el);
     </script>
 </body>
 </html>
