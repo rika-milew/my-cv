@@ -1161,7 +1161,8 @@ footer {
 	}
 
     .my-photo2 {
-        height: 580px;
+        width: 90%;
+        height: auto;
     }
 }
 
@@ -1270,11 +1271,12 @@ footer {
     }
 
     .portfolio-block__items img {
-        width: 510px;
+        width: 100%;
     }
 
     .my-photo2 {
-        height: 480px;
+        width: 95%;
+        height: auto;
     }
 }
 
@@ -1313,8 +1315,8 @@ footer {
     }
 
     .my-photo2 {
-        height: 380px; 
-        margin: 0 auto;
+        width: 100%;
+        height: auto;
     }
 
     .first-block {
@@ -1491,10 +1493,6 @@ footer {
     .footer-block p {
         font-size: 12px;
     }
-
-    .portfolio-block__items img {
-        width: 390px;
-    }
 }
 
 
@@ -1503,14 +1501,6 @@ footer {
     .main-block__text h2 {
         width: 100%;
         font-size: 39px;
-    }
-
-    .my-photo2 {
-        height: 350px;
-    }
-
-    .portfolio-block__items img {
-        width: 360px;
     }
 }
 
@@ -1529,16 +1519,8 @@ footer {
         height: 20px;
     }
 
-    .my-photo2 {
-        height: 350px;
-    }
-
     code {
         font-size: 9px;
-    }
-
-    .portfolio-block__items img {
-        width: 345px;
     }
 }
 
@@ -1556,16 +1538,8 @@ footer {
         text-align: center;
     }
 
-    .portfolio-block__items img {
-        width: 290px;
-    }
-
     .header__body {
         height: 15px;
-    }
-
-    .my-photo2 {
-        height: 280px;
     }
 }
 
@@ -1579,14 +1553,6 @@ footer {
     .header__body {
         height: 12px;
     }
-
-    .my-photo2 {
-        height: 270px;
-    }
-
-    .portfolio-block__items img {
-        width: 270px;
-    }
 }
 
 
@@ -1595,13 +1561,5 @@ footer {
 
     .main-block__text h2 {
         font-size: 28px;
-    }
-
-    .my-photo2 {
-        height: 270px;
-    }
-
-    .portfolio-block__items img {
-        width: 250px;
     }
 }
