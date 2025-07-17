@@ -24,7 +24,7 @@ html, body, main {
     flex-wrap: wrap;
     min-width: 312px;
     max-width: 2300px;
-     height: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -806,7 +806,7 @@ footer {
     }
 
     .my-photo2 {
-        height: 430px;
+        height: 470px;
     }
 
     .about-me__experience {
@@ -845,8 +845,9 @@ footer {
     }
 
     .my-photo2 {
-        margin: 0 auto;
         align-items: center;
+        height: 580px;
+        margin: 0 auto;
     }
 
     .main-block {
@@ -1134,6 +1135,14 @@ footer {
     .portfolio-block__items img {
         width: 600px;
     }
+
+    .extra-block__photo {
+        width: 100%;
+    }
+
+    .my-photo2 {
+        height: 600px;
+    }
 }
 
 
@@ -1150,6 +1159,10 @@ footer {
 	.container {
 		width: 700px;
 	}
+
+    .my-photo2 {
+        height: 580px;
+    }
 }
 
 
@@ -1259,6 +1272,10 @@ footer {
     .portfolio-block__items img {
         width: 510px;
     }
+
+    .my-photo2 {
+        height: 480px;
+    }
 }
 
 
@@ -1296,7 +1313,7 @@ footer {
     }
 
     .my-photo2 {
-        height: 250px; 
+        height: 380px; 
         margin: 0 auto;
     }
 
@@ -1313,7 +1330,7 @@ footer {
     }
 
     code {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .my-photo {
@@ -1476,7 +1493,7 @@ footer {
     }
 
     .portfolio-block__items img {
-        width: 340px;
+        width: 390px;
     }
 }
 
@@ -1486,6 +1503,14 @@ footer {
     .main-block__text h2 {
         width: 100%;
         font-size: 39px;
+    }
+
+    .my-photo2 {
+        height: 350px;
+    }
+
+    .portfolio-block__items img {
+        width: 360px;
     }
 }
 
@@ -1502,6 +1527,18 @@ footer {
 
     .header__body {
         height: 20px;
+    }
+
+    .my-photo2 {
+        height: 350px;
+    }
+
+    code {
+        font-size: 9px;
+    }
+
+    .portfolio-block__items img {
+        width: 345px;
     }
 }
 
@@ -1520,11 +1557,15 @@ footer {
     }
 
     .portfolio-block__items img {
-        width: 250px;
+        width: 290px;
     }
 
     .header__body {
         height: 15px;
+    }
+
+    .my-photo2 {
+        height: 280px;
     }
 }
 
@@ -1538,6 +1579,14 @@ footer {
     .header__body {
         height: 12px;
     }
+
+    .my-photo2 {
+        height: 270px;
+    }
+
+    .portfolio-block__items img {
+        width: 270px;
+    }
 }
 
 
@@ -1546,5 +1595,13 @@ footer {
 
     .main-block__text h2 {
         font-size: 28px;
+    }
+
+    .my-photo2 {
+        height: 270px;
+    }
+
+    .portfolio-block__items img {
+        width: 250px;
     }
 }
